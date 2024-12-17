@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+</head>
+<body>
+    <form action="insertar_hotel.php" method="POST">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+        <label>ubicacion:</label>
+        <input type="text" name="ubicacion" required>
+        <label>Habitaciones disponibles:</label>
+        <input type="number" name="habitaciones_disponibles" required>
+        <label>Tarifa noche:</label>
+        <input type="number"  name="tarifa_noche" required>
+        <button type="submit">Insertar Hotel</button>
+    </form>
+</body>
+</html>
